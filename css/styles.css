@@ -821,7 +821,7 @@ button {
   fill: var(--accent-color);
 }
 
-/* MOsdasfldspgkdsv?asdfasfdadsadfasfasfsafasfasfasfsafd */
+/* -------------Регістрація --------------------- */
 
 .modal-form {
   padding: 40px;
@@ -835,7 +835,7 @@ button {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color-theme-light);
+  color: var(--primery-color);
   margin-bottom: 12px;
 }
 
@@ -852,7 +852,7 @@ button {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: var(--secondary-text-color-theme-light);
+  color: var(--secondary-color);
   margin-bottom: 4px;
 }
 
@@ -881,9 +881,10 @@ button {
   position: absolute;
   top: 50%;
   left: 12px;
-  fill: var(--secondary-color);
+  fill: var(--primery-color);
   transform: translateY(-50%);
-  transition: fill var(--transition-dur-and-fun-portfol);
+  transition: fill aar(--transition-dur-and-fun-portfol);
+
 }
 
 .modal-form-input:focus+.modal-form-input-icon {
@@ -943,7 +944,7 @@ button {
 .modal-form-check-policy:checked+.modal-form-check-policy-description::before {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
-  background-image: url();
+  background-image: url(/images/icon\ check.svg);
   background-position: center;
   background-size: 16px 15px;
 }
@@ -971,8 +972,10 @@ button {
   background-color: var(--accent-color-hover);
 }
 
+/* ------------- /Регістрація --------------------- */
 
-/* dfasfsdfgdsdsdsdsdsdsdsdsdsfffffffffsdfsdfsdf */
+
+/* ---- ------- Telegram   ------- ---- */
 .footer-form-input {
   margin-left: 93px;
 }
@@ -1011,6 +1014,7 @@ button {
 }
 
 .subscribe-send-icon {
+
   margin-left: 10px;
 
   fill: var(--light-color);
@@ -1026,7 +1030,7 @@ button {
 
 
 
-/* dsafassssssssssssssssssssssssssssssssssssssssssssssss */
+/* ---- ------- /Telegram   ------- ---- */
 /*==================  /MODAL  WINDOW =======================*/
 
 /* -------------- icon-port------------------ */
@@ -1061,4 +1065,4 @@ button {
   transform: var(--transition-dur-and-fun-bacol);
 }
 
-/* ============= ====================== */
+/* ============= icon-port ====================== */
