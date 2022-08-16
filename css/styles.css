@@ -545,6 +545,10 @@ button {
   align-items: baseline;
 }
 
+.contact-group {
+  flex-grow: calc(1);
+}
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 20px;
@@ -787,7 +791,6 @@ button {
   top: 50%;
   left: 50%;
   width: 528px;
-  height: 581px;
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   background: var(--light-color);
@@ -840,11 +843,11 @@ button {
 }
 
 .modal-form-field {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .modal-form-field:last-child {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .modal-form-input-description {
@@ -893,6 +896,7 @@ button {
 
 .modal-form-message {
   resize: none;
+  display: block;
   width: 100%;
   height: 120px;
   padding: 12px 16px;
@@ -921,6 +925,7 @@ button {
 }
 
 .modal-form-check-policy-description {
+  justify-content: center;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
